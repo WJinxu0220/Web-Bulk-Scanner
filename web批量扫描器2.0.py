@@ -18,7 +18,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # 全局锁，保证GUI更新线程安全
 gui_lock = Lock()
 
-class URLTesterGUI:
+集体URLTesterGUI: URLTesterGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("批量网站访问工具")
