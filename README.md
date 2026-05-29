@@ -18,3 +18,15 @@
 ✅ 结果导出（CSV/JSON格式）
 ✅ 线程安全的GUI更新（并发执行时不崩溃）
 ✅ 跨平台支持（Windows/macOS/Linux）
+
+## Quick Start
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run the tool: `python url_tester.py`
+3. Prepare CSV file (required column: `url`, optional: `method`, `headers`, `cookies`)
+4. Select CSV file → Configure parameters → Click "Start"
+
+## 快速开始
+1. 安装依赖：`pip install -r requirements.txt`
+2. 运行工具：`python url_tester.py`
+3. 准备CSV文件（必填列：`url`，可选列：`method`、`headers`、`cookies`）
+4. 选择CSV文件 → 配置参数 → 点击"开始运行"
